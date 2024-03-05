@@ -1,11 +1,79 @@
-h1 {background-color: aqua;
-    text-align: center;}
-h2, h3 {text-align: center;}
+body{
+    background-color: rgb(46, 45, 45);
+    color: rgb(5, 255, 117);
+}
+
+h1 {
+    padding-top: 0px;
+    margin-top: -5px;
+    margin-left: -7px;
+    margin-right: -7px;
+    background-color: rgb(132, 0, 255);
+    text-align: center;
+    color: orange;
+    border: 2px solid white;
+}
+
+h2, h3 {
+    text-align: center;
+    margin-top: -25px;
+    margin-left: 230px;
+    margin-right: 230px;
+    background-color: rgb(132, 0, 255);
+    border: 2px solid white;
+}
+
+form{
+    text-align: left;
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-top: -15px;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: -25px;
+    border: 2px solid white;
+    background-color: rgb(132, 0, 255);
+    height: 300px;
+}
 
 #titulo {margin-bottom: 30px;}
 
-.text-enlace, .text-enlace2 {text-align:right}
-.text-enlace {margin-top: 30px;}
+.text-enlace {
+    text-align:center;
+    margin-left: 230px;
+    margin-right: 230px;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid white;
+    background-color: rgb(132, 0, 255);
+}
 
-.required:after {   content:"*";
+.cont{
+    padding-bottom: 15px;
+}
+img{
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 60%;
+    margin-top: 40px;
+    position: absolute;
+    width: 20%;
+}
+
+.text-enlace {
+    margin-top: 30px;
+    margin-bottom: -25px;
+
+}
+
+.required:after {   
+    content:"*";
     color:red}
+
+.add {
+    color: rgb(132, 0, 255);
+    background-color: orange;
+    width: 120px;
+}

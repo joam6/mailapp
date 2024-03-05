@@ -5,13 +5,15 @@
     <link rel="icon" type="image/x-icon" href="../static/logo.png">
     <link rel="stylesheet"  type="text/css" href="../static/mailapp.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOGIN</title>
+    <title>REGISTRO</title>
 </head>
 <body>
     <div class="container">
         <h1 id="titulo">PAGINA JOAM</h1>
-        <h3>Iniciar sesión</h3>
+        <h3>Registrate</h3>
         <form action="/login" method="POST">
+            <p>Nombre</p>
+            <input type="text" name="nombre" placeholder="Nombre" required><br>
             <p>Correo Electronico:</p>
             <input type="email" name="email" placeholder="Correo electrónico" required><br>
             <p>Contraseña:</p>
@@ -19,7 +21,12 @@
             <br>
             <input type="submit" value="Iniciar sesión" class="add">
         </form>
-        <h4 class="text-enlace">¿No tienes una cuenta? <a href="./registro.html">Regístrate aquí</a></h4>
+        <h4 class="text-enlace">¿Ya tienes una cuenta? <a href="./login.html">Logueate aqui</a></h4>
+        <h4 class="text-enlace">
+            Volver al apartado anterior
+            <br>
+            <a>
+        </h4>
     </div>
 </body>
 </html>
